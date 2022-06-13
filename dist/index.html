@@ -1,1 +1,65 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>会动的代码demo</title></head><body> <style id="style"></style> <div id="html"></div> <div id="div1Wrapper"> <div id="div1"></div> </div> <style>*{box-sizing:border-box;margin:0;padding:0}:after,:before{box-sizing:border-box}#demo{word-break:break-all}#div1{position:fixed;top:20px;left:50%;transform:translate(-50%)}#div1:before,#div1:after{content:"";display:block;position:absolute}@media (max-width:500px){#html{height:50vh;overflow:auto}#div1Wrapper{height:50vh;align-items:center;display:flex}#div1{position:relative;top:0;left:50%;transform:translate(-50%)}}</style> <script src="index.c5393cc1.js"></script> </body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>会动的代码demo</title>
+  </head>
+  <body>
+    <style id="style"></style>
+    <div id="html"></div>
+    <div id="div1Wrapper">
+      <div id="div1"></div>
+    </div>
+    <style>* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:after, :before {
+  box-sizing: border-box;
+}
+
+#html {
+  word-break: break-all;
+}
+
+#div1 {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#div1:before, #div1:after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+@media (max-width: 500px) {
+  #html {
+    height: 50vh;
+    overflow: auto;
+  }
+
+  #div1Wrapper {
+    height: 50vh;
+    align-items: center;
+    display: flex;
+  }
+
+  #div1 {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+</style>
+    <script src="/index.de158e3a.js"></script>
+  </body>
+</html>
