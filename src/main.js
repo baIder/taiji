@@ -1,9 +1,9 @@
 let html = document.querySelector("#html");
 let style = document.querySelector("#style");
 let string2 = "";
-let string = `/* 你好我是一名前端新人
- * 接下来我要加样式了
- * 我要加的样式是
+let string = `/* 你好
+ * 接下来我将要画一个太极八卦图
+ * 看好了
  **/
 #div1{
     border:1px solid red;
@@ -46,6 +46,7 @@ let string = `/* 你好我是一名前端新人
     border-radius: 50%;
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%);
 }
+/*大功告成*/
 `;
 
 let n = 0;
@@ -68,7 +69,7 @@ let step = () => {
       n += 1;
       step();
     }
-  }, 0);
+  }, 30);
 };
 
 step();
